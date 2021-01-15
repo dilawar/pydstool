@@ -8,7 +8,7 @@
 # 	dev   - installation using 'python setup.py develop'
 # 	undev - uninstall after 'make dev'
 
-TEST_CMD=python setup.py test
+TEST_CMD=python3 setup.py test
 
 .PHONY: install local
 	
